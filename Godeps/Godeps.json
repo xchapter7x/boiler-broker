@@ -1,0 +1,40 @@
+{
+	"ImportPath": "github.com/pivotal-pez/servez-broker",
+	"GoVersion": "go1.5.2",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/codegangsta/negroni",
+			"Comment": "v0.1-70-gc7477ad",
+			"Rev": "c7477ad8e330bef55bf1ebe300cf8aa67c492d1b"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "1c83b3eabd45b6d76072b66b746c20815fb2872d"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Rev": "ad4d7a5882b961e07e2626045eb995c022ac6664"
+		},
+		{
+			"ImportPath": "github.com/nabeken/negroni-auth",
+			"Rev": "e36ebd5bfb3f8abdb29af3b5080565d740f2bf7d"
+		},
+		{
+			"ImportPath": "github.com/pmylund/go-cache",
+			"Rev": "721cc9438c91df8997d39584a6740e2aba3100a7"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/bcrypt",
+			"Comment": "null-234",
+			"Rev": "'60a80aaa50ff0e8506f61b1fa35078a24941be50'"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/blowfish",
+			"Comment": "null-234",
+			"Rev": "'60a80aaa50ff0e8506f61b1fa35078a24941be50'"
+		}
+	]
+}
